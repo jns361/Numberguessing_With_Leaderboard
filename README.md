@@ -10,6 +10,10 @@ Here I have uploaded my first small Python project - a simple number guessing ga
 - Right click the .py file and "Open with" -> "Python"
 - The .txt file should be created automatically when finished the game once (same folder as the .py file)
 
+🗺️ Roadmap
+- Different difficulty settings (increasing the range of possible numbers)
+- Build a GUI using Tkinter
+
 🎮 How it works
 - The game randomly generates a number **from 1 to 100**.
 - Right before starting to guess it asks you for your name.
