@@ -27,12 +27,43 @@ def winnerslist(username, trycount):
 
 #userguess
 while True:
-    #generating number
-    luckynumber = random.randint(1, 100)
+
+    while True:
+        #Difficulty
+        print("How hard do you want it?")
+        print("1 - Easy (Numbers from 1-50)")
+        print("2 - Normal (Numbers from 1-100)")
+        print("3 - Hard (Numbers from 1-200)")
+        difficulty=input("Your choice: ")
+
+    
+#Generating Numbers
+    
+        if difficulty == "1":
+            luckynumber = random.randint(1, 50)
+            print("A random number from 1 to 50 was generated.")
+            print(luckynumber)
+            break
+        elif difficulty == "2":
+            luckynumber = random.randint(1, 100)
+            print("A random number from 1 to 100 was generated.")            
+            print(luckynumber)
+            break
+        elif difficulty == "3":
+            luckynumber = random.randint(1, 200)
+            print("A random number from 1 to 200 was generated.")
+            print(luckynumber)
+            break
+        else:
+            print("Your choice is no option!")
+            continue
+
+    
+#guessing
     trycount = 0
-    print("A random number from 1 to 100 was generated.")
     while True:
 
+        
         try:
             guess = int(input("Your guess: "))
         except:
