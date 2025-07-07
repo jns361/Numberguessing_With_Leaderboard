@@ -11,7 +11,7 @@ Here I have uploaded my first small Python project - a simple number guessing ga
 - The .txt file should be created automatically when finished the game once (same folder as the .py file)
 
 🗺️ Roadmap
-- Different difficulty settings (increasing the range of possible numbers)
+- Different difficulty settings (increasing the range of possible numbers) -> Done: v1.1
 - Build a GUI using Tkinter
 
 🎮 How it works
