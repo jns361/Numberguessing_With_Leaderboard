@@ -2,8 +2,7 @@ import random
 import os
 import sys
 import time
-#print("__file__  =", __file__)
-#print("cwd       =", os.getcwd())
+
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
